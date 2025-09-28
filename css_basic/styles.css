@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  min-height: 0;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 1rem;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 1rem;
+}
+
+aside {
+  border-left: 1px solid #e5e5e5;
+}
+
+header,
+main,
+footer {
+  width: min(1100px, 95%);
+  margin: 1rem auto 0;
+}
+footer {
+  margin-bottom: 1rem;
+}
+
+/* body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #111;
+} */
