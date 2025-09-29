@@ -176,8 +176,6 @@ alx_html_css/
 
 ---
 
-## 🎯 Learning Objectives
-
 ### 📚 HTML Fundamentals
 
 - [x] Understanding HTML5 semantic elements
@@ -248,28 +246,7 @@ This project is part of the ALX Software Engineering Program curriculum and is i
 
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/ZeeAzeez)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/azeezahazeez)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/azeezahazeez)
 
 _ALX Software Engineering Student | Frontend Developer | Web Development Enthusiast_
-
-</div>
-
----
-
-## 🙏 Acknowledgments
-
-- 🎓 **ALX Africa** for the comprehensive curriculum
-- 💡 **Holberton School** for the project methodology
-- 🌟 **The ALX Community** for support and collaboration
-- 📚 **MDN Web Docs** for excellent documentation
-- 🎨 **Font Awesome** for beautiful icons
-
----
-
-<div align="center">
-
-**⭐ Star this repository if you found it helpful!**
-
-_Building the future, one line of code at a time_ 🚀
 
 </div>
