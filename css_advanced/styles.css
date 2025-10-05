@@ -103,3 +103,47 @@ h2 {
   margin: 0;
   color: white;
 }
+
+.quote-section {
+  background-color: var(--button-color);
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 0 auto;
+}
+
+.quote-image img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.quote-text blockquote {
+  font-size: 22px;
+  color: white;
+  margin: 0 0 2rem 0;
+  line-height: 1.6;
+}
+
+.quote-text h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 0.5rem 0;
+}
+
+.quote-text p {
+  font-size: 22px;
+  font-style: italic;
+  color: white;
+  margin: 0;
+  opacity: 0.8;
+}
