@@ -258,3 +258,66 @@ h2 {
   margin: 0;
   font-weight: 600;
 }
+
+/* Free Membership Section */
+.free-membership-section {
+  background-color: #071629;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.free-membership-section h2 {
+  font-size: 32px;
+  color: white;
+  margin: 0 0 4rem 0;
+}
+
+.free-membership-lorem {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.free-membership-item {
+  text-align: center;
+  max-width: 200px;
+}
+
+.free-membership-item img {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 1rem;
+}
+
+.free-membership-item h3 {
+  font-size: 18px;
+  color: white;
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+.free-membership-item p {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.register-button {
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 22px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
