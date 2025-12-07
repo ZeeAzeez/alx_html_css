@@ -321,3 +321,115 @@ nav {
     font-size: 80px;
   }
 }
+
+/* Our Results Section */
+.our-results {
+  background-image: linear-gradient(
+      var(--color-dark-overlay),
+      var(--color-dark-overlay)
+    ),
+    url("/images/headphones_hero_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: var(--spacing-xl) var(--spacing-md);
+  color: var(--color-white);
+}
+
+.our-results .section-title {
+  color: var(--color-white);
+}
+
+.our-results .section-description {
+  color: var(--color-white);
+}
+
+/* Results Grid - Reusing grid component pattern */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-lg);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Result Card */
+.result-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pentagon Shape */
+.pentagon {
+  width: 190px;
+  height: 190px;
+  background-image: url("/images/pentagone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pentagon-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.result-number {
+  font-size: 46px;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-xs);
+}
+
+.result-text {
+  font-size: 14px;
+  color: var(--color-white);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Responsive for Our Results section */
+@media (max-width: 768px) {
+  .our-results {
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
+
+  .results-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+
+  .pentagon {
+    width: 170px;
+    height: 170px;
+  }
+
+  .result-number {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .results-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .pentagon {
+    width: 190px;
+    height: 190px;
+  }
+
+  .result-number {
+    font-size: 46px;
+  }
+}
